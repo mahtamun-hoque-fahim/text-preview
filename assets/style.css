@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    transition: .5s ease-in;
+    scroll-behavior: smooth;
+    font-family: Ubuntu;
+}
+body{
+    background-color: #222;
+    color: #eee;
+    display: grid;
+    place-content:center;
+    height: 100vh;
+    width: 100vw;
+}
+body > form{
+    display: grid;
+    place-content:center;
+    padding: 4rem;
+}
+body > form > textarea{
+    border: none;
+    border-radius: .5rem;
+    width: 30vw;
+    padding:1.5rem 1.5rem;
+    background-color:#111;
+    color: #10bbff;
+    margin: auto auto;
+}
+body > form > button{
+    border: none;
+    border-radius: 2rem;
+    width: 20vw;
+    padding:1.5rem 1.5rem;   
+    background-color: #06425a;
+    color:#111; 
+    margin: 1rem auto;
+
+}
